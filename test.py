@@ -1,8 +1,8 @@
 
 
 
-print("Hello world")
+print("He  llo world")
 
 
 
-print("Hello state")
+print ("Hello state")
