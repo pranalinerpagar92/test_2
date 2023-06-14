@@ -4,9 +4,7 @@ pipeline {
     stages {
         stage('Run test file') {
             steps {
-                echo "Hi"
-                sh "yum install python"
-                sh "python test.py"
+                sh "echo Hi"          
             }
         }
     }
