@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Run test file') {
             steps {
-                sh "echo Hi"          
+                bat "python --version"          
             }
         }
     }
