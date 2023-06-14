@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('test3 branch is newly added') {
             steps {
-                bat C:\\Users\\PranaliN\\AppData\\Local\\Programs\\Python\\Python311\\python.exe test3.py
+                bat C:\\Users\\PranaliN\\AppData\\Local\\Programs\\Python\\Python311\\python.exe test.py
             }
         }
     }
