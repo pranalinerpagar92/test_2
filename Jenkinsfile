@@ -3,10 +3,8 @@ pipeline {
 
     stages {
         stage('Run test file') {
-            steps {
-                bat "py --version"
-                bat "python --version"        
-                bat "python3 --version"
+            steps {                      
+                bat "C:\\Users\\PranaliN\\AppData\\Local\\Programs\\Python\\Python311\\python.exe --version"
             }
         }
     }
